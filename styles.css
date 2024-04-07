@@ -1,0 +1,176 @@
+@media (prefers-reduced-motion: no-preference){
+    *{
+      scroll-behavior: smooth;
+    }
+  }
+  
+  *, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-size: 10px;
+    font-family: 'Lato', 'Georgia', 'Times New Roman', serif;
+    line-height: 2.2em;
+  }
+  
+  body{
+    margin: 0;
+    background-color: #B6D0E2;
+  }
+  
+  main{
+    margin: 0 auto;
+  }
+  
+  header{
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0047AB;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    font-size: 2rem;
+    z-index: 99;
+  }
+  
+  #title{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  #head-title{
+    font-size: 9rem;
+    margin: 50px 0 0 15px;
+  }
+  
+  #head-subtitle{
+    font-size: 2.5rem;
+    margin: 30px 0;
+  }
+  
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    padding-inline-start: 0;
+    margin-block: 0;
+  }
+  
+  nav ul li{
+    color: white;
+    margin: 0 5rem;
+    padding: 15px;
+    display: block;
+  }
+  
+  li a, a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  li a:hover, a:hover{
+    color: yellow;
+  }
+  
+  .link{
+    font-weight: 800;
+  }
+  
+  #img-div{
+    background-color: #87CEEB;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: fit-content;
+    min-width: 15vw;
+    max-height: 600px;
+    border-radius: 50% 50% 5% 5%;
+    box-sizing: border-box;
+    box-shadow: inset;
+  }
+  
+  #image{
+    display: block;
+    position: relative;
+    max-height: 90%;
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 50%;
+  }
+  
+  #img-caption{
+    display: flex;
+    justify-content: center;
+    margin: 2px auto;
+    padding: 2px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+  .tribute{
+    background-color: #ADD8E6;
+    padding: 20px;
+  }
+  
+  .tribute p, .tribute .list{
+    font-size: 2rem;
+  }
+  
+  #tribute-info{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  
+  .text{
+    line-height: 2.1rem;
+    margin: 15px 0;
+  }
+  
+  .section-head{
+    font-size: 4rem;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  #summary-div{
+    margin: 12px;
+  }
+  
+  #summary, #timeline{
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  
+  .list{
+    margin: 15px auto;
+    max-width: 30%;
+    text-align: left;
+  }
+  
+  .list li{
+    line-height: 2rem;
+    margin: 12px 0;
+  }
+  
+  .date{
+    font-weight: 800;
+  }
+  
+  .divider{
+    border: 2px solid black
+  }
+  
+  footer{
+    text-align: center;
+    font-size: 1.2rem;
+  }
